@@ -43,13 +43,13 @@ function ContactSection2() {
                         <fieldset className="column column-1-2">
                             <div className="border-container">
                                 <label>Name *</label>
-                                <input className="text-input" name="name" type="text" value="" placeholder="Your Name" data-required="1" />
+                                <input className="text-input" name="name" type="text" defaultValue="" placeholder="Your Name" data-required="1" />
                             </div>
                         </fieldset>
                         <fieldset className="column column-1-2">
                             <div className="border-container">
                                 <label>Email *</label>
-                                <input className="text-input" name="email" type="text" value="" placeholder="your@email.com" data-required="1" />
+                                <input className="text-input" name="email" type="text" defaultValue="" placeholder="your@email.com" data-required="1" />
                             </div>
                         </fieldset>
                     </div>
@@ -57,17 +57,17 @@ function ContactSection2() {
                         <fieldset className="column column-1-2">
                             <div className="border-container">
                                 <label>Phone</label>
-                                <input className="text-input" name="phone" type="text" value="" placeholder="(123) 456" />
+                                <input className="text-input" name="phone" type="text" defaultValue="" placeholder="(123) 456" />
                             </div>
                         </fieldset>
                         <fieldset className="column column-1-2">
                             <div className="border-container">
                                 <label>Subject</label>
                                 <select name="subject" id="subject" className="cost-dropdown">
-                                    <option value="" selected>Choose...</option>
-                                    <option value="Business Consulting">Business Consulting</option>
-                                    <option value="Accounting Office">Accounting Office</option>
-                                    <option value="Loans and Leasing">Loans and Leasing</option>
+                                    <option defaultValue="">Choose...</option>
+                                    <option defaultValue="Business Consulting">Business Consulting</option>
+                                    <option defaultValue="Accounting Office">Accounting Office</option>
+                                    <option defaultValue="Loans and Leasing">Loans and Leasing</option>
                                 </select>
                             </div>
                         </fieldset>
@@ -81,7 +81,7 @@ function ContactSection2() {
                         </fieldset>
                     </div>
                     <fieldset className="submit-container margin-top-30">
-                        <input type="hidden" name="action" value="contact_form" />
+                        <input type="hidden" name="action" defaultValue="contact_form" />
                         <div className="row align-center">
                             <a className="more submit-contact-form" href="#" title="Submit now">Submit now</a>
                         </div>

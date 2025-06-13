@@ -1,23 +1,22 @@
 import React from 'react'
 import Header from '../_components/Header'
-import Footer from '../_components/Footer'
 import { PageBreadCrumb } from '../_components/BreadCrumb'
-import BlogsSection1 from './components/BlogsSection1'
-import BlogsSection2 from './components/BlogsSection2'
+import BlogPostSection1 from './components/BlogPostSection1'
+import BlogPostSection2 from './components/BlogPostSection2'
+import Footer from '../_components/Footer'
 
-export default function BlogsPage() {
+export default function BlogPost() {
     return (
         <div className="site-container">
             <Header />
 
             <div className="theme-page">
-                <PageBreadCrumb title='Home' label='Blog Classic' crumbs={[{ title: 'Blog Classic' }]} />
+                <PageBreadCrumb title='Home' label='Blog' crumbs={[{ title: 'Blog' }]} />
                 <div className="clearfix">
                     <div className="row page-margin-top-section margin-bottom-100">
-                        <BlogsSection1 />
-                        <BlogsSection2 />
+                        <BlogPostSection1 />
+                        <BlogPostSection2 />
                     </div>
-
                 </div>
             </div>
 

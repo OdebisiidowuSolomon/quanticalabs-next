@@ -2,19 +2,19 @@ import React from 'react'
 import Header from '../_components/Header'
 import Footer from '../_components/Footer'
 import BreadCrumb from '../_components/BreadCrumb'
-import ServicesSection1 from './components/ServicesSection1'
-import ServicesSection2 from './components/ServicesSection2'
+import CaseStudiesSection1 from './components/CaseStudiesSection1'
+import CaseStudiesSection2 from './components/CaseStudiesSection2'
 
-export default function ServicesPage() {
+export default function page() {
     return (
         <div className="site-container">
             <Header />
 
             <div className="theme-page">
-                <BreadCrumb title='Home' label='Our services' crumbs={[{ title: 'Our services' }]} />
+                <BreadCrumb title='Home' label='Case studies' crumbs={[{ title: 'Case studies' }]} />
                 <div className="clearfix">
-                    <ServicesSection1 />
-                    <ServicesSection2 />
+                    <CaseStudiesSection1 />
+                    <CaseStudiesSection2 />
                 </div>
             </div>
 

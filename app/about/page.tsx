@@ -16,7 +16,7 @@ export default function AboutPage() {
             <Header />
 
             <div className="theme-page">
-                <BreadCrumb title='Home' label='About' />
+                <BreadCrumb title='Home' label='About' crumbs={[{ title: 'About' }]} />
                 <div className="clearfix">
                     <AboutSection1 />
                     <AboutSection2 />

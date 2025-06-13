@@ -1,5 +1,10 @@
 import React from 'react'
 
+
+const headerLinks = [
+    { title: '', linkTo: '', subMenu: [{ title: '', linkTo: '' }] }
+]
+
 export default function Header() {
     return (
         <>
@@ -68,13 +73,28 @@ export default function Header() {
                                     <a href="/about" title="About Us">
                                         About Us
                                     </a>
-                                  
+
                                 </li>
                                 <li className="submenul">
                                     <a href="/services" title="Services">
                                         Services
                                     </a>
-                                  
+
+                                </li>
+                                <li className="submenul">
+                                    <a href="/case-studies" title="Case Studies">
+                                        Case Studies
+                                    </a>
+                                </li>
+                                <li className="submenul">
+                                    <a href="/blogs" title="Blog">
+                                        Blog
+                                    </a>
+                                </li>
+                                <li className="submenul">
+                                    <a href="/bookkeeping-quoting-calculator" title="Calculator">
+                                        Calculator
+                                    </a>
                                 </li>
                                 {/* <li className="submenul">
                                     <a href="?page=case_studies" title="Case studies">
@@ -118,230 +138,37 @@ export default function Header() {
                                 <ul className="mobile-menu collapsible-mobile-submenus">
                                     <li><a className="template-big-arrow-horizontal-sm" href="#">&nbsp;</a></li>
                                     <li className="selected">
-                                        <a href="?page=home" title="Home">
+                                        <a href="/home" title="Home">
                                             Home
                                         </a>
-                                        <a href="#" className="template-plus3"></a>
-                                        <ul>
-                                            <li className="selected">
-                                                <a href="?page=home" title="Home style 1">
-                                                    Home style 1
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=home_2" title="Home style 2">
-                                                    Home style 2
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=home_transparent_header" title="Home transparent header">
-                                                    Home transparent header
-                                                </a>
-                                            </li>
-                                        </ul>
+                                        <a href="#" className="template-plus3i"></a>
                                     </li>
+
                                     <li>
-                                        <a href="?page=about" title="Pages">
-                                            Pages
-                                        </a>
-                                        <a href="#" className="template-plus3"></a>
-                                        <ul>
-                                            <li className="submenu">
-                                                <a href="?page=about" title="About style 1">
-                                                    About
-                                                </a>
-                                                <a href="#" className="template-plus3"></a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="?page=about" title="About style 1">
-                                                            About style 1
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="?page=about_2" title="About style 2">
-                                                            About style 2
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li className="submenu">
-                                                <a href="?page=services" title="Our services style 1">
-                                                    Our services
-                                                </a>
-                                                <a href="#" className="template-plus3"></a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="?page=services" title="Our services style 1">
-                                                            Our services style 1
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="?page=services_2" title="Our services style 2">
-                                                            Our services style 2
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="?page=service_accounting_and_tax_advisory_services"
-                                                            title="Single service style 1">
-                                                            Single service style 1
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="?page=service_strategic_and_transaction_consulting_services"
-                                                            title="Single service style 2">
-                                                            Single service style 2
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li className="submenu">
-                                                <a href="?page=case_studies" title="Case studies">
-                                                    Case studies
-                                                </a>
-                                                <a href="#" className="template-plus3"></a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="?page=case_studies" title="Case studies">
-                                                            Case studies
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="?page=study_consulting_for_corporations"
-                                                            title="Single case study">
-                                                            Single case study
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li className="submenu">
-                                                <a href="?page=team" title="Our team">
-                                                    Our team
-                                                </a>
-                                                <a href="#" className="template-plus3"></a>
-                                                <ul>
-                                                    <li>
-                                                        <a href="?page=team" title="Our team">
-                                                            Our team
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a href="?page=team_ann_underwood" title="Single team member">
-                                                            Single team member
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                <a href="?page=testimonials" title="Testimonials">
-                                                    Testimonials
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=price_list" title="Price list">
-                                                    Price list
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=404" title="404 not found">
-                                                    404 not found
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="?page=services" title="Services">
+                                        <a href="/services" title="Services">
                                             Services
                                         </a>
-                                        <a href="#" className="template-plus3"></a>
-                                        <ul>
-                                            <li>
-                                                <a href="?page=service_accounting_and_tax_advisory_services"
-                                                    title="Accounting and tax advisory services">
-                                                    Accounting and tax advisory
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=service_strategic_and_transaction_consulting_services"
-                                                    title="Strategic and transaction consulting services">
-                                                    Consulting services
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=service_loans_and_reviews_of_financial_statements"
-                                                    title="Loans and reviews of financial statements">
-                                                    Financial statements
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=service_business_plans_valuations_and_analyzes"
-                                                    title="Business plans valuations and analyzes">
-                                                    Business growth
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=service_performance_management_and_improvement"
-                                                    title="Performance management and improvement">
-                                                    Banking advising
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=service_small_business_employee_benefits"
-                                                    title="Small business employee benefits">
-                                                    Audit marketing
-                                                </a>
-                                            </li>
-                                        </ul>
+                                        <a href="#" className="template-plus3i"></a>
+
                                     </li>
                                     <li>
-                                        <a href="?page=case_studies" title="Case studies">
-                                            Studies
+                                        <a href="/case-studies" title="Case studies">
+                                            Case Studies
                                         </a>
-                                        <a href="#" className="template-plus3"></a>
-                                        <ul>
-                                            <li>
-                                                <a href="?page=study_consulting_for_corporations"
-                                                    title="Consulting for corporations">
-                                                    Consulting for corporations
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=study_company_value_appraisal"
-                                                    title="Company value appraisal">
-                                                    Company value appraisal
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=study_reduction_of_fixed_costs"
-                                                    title="Reduction of fixed costs">
-                                                    Reduction of fixed costs
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=study_distribution_process_analysis"
-                                                    title="Distribution process analysis">
-                                                    Distribution process analysis
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=study_optimization_of_financial_flows"
-                                                    title="Optimization of financial flows">
-                                                    Optimization of financial flows
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=study_capital_plans_for_employees"
-                                                    title="Captial plans for employees">
-                                                    Captial plans for employees
-                                                </a>
-                                            </li>
-                                        </ul>
+                                        <a href="#" className="template-plus3i"></a>
                                     </li>
                                     <li>
-                                        <a href="?page=bookkeeping_quoting_calculator" title="Calculator">
+                                        <a href="/blogs" title="Blog">
+                                            Blog
+                                        </a>
+                                        <a href="#" className="template-plus3i"></a>
+                                    </li>
+                                    <li>
+                                        <a href="/bookkeeping-quoting-calculator" title="Calculator">
                                             Calculator
                                         </a>
-                                        <a href="#" className="template-plus3"></a>
-                                        <ul>
+                                        <a href="#" className="template-plus3i"></a>
+                                        {/* <ul>
                                             <li>
                                                 <a href="?page=bookkeeping_quoting_calculator"
                                                     title="Bookkeeping quoting calculator">
@@ -353,52 +180,14 @@ export default function Header() {
                                                     Loan cost calculator
                                                 </a>
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     <li>
-                                        <a href="?page=blog" title="Blog">
-                                            Blog
-                                        </a>
-                                        <a href="#" className="template-plus3"></a>
-                                        <ul>
-                                            <li>
-                                                <a href="?page=blog" title="Blog">
-                                                    Blog
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=blog_grid" title="Blog grid">
-                                                    Blog grid
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=blog_grid_with_sidebar" title="Blog grid with sidebar">
-                                                    Blog grid with sidebar
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=blog_grid_with_left_sidebar" title="Blog grid with sidebar">
-                                                    Blog grid with left sidebar
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=post" title="Single post">
-                                                    Single post
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="?page=search&amp;s=ipsum" title="Search template">
-                                                    Search template
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </li>
-                                    <li>
-                                        <a href="?page=contact" title="Contact">
+                                        <a href="/contact" title="Contact">
                                             Contact
                                         </a>
-                                        <a href="#" className="template-plus3"></a>
-                                        <ul>
+                                        <a href="#" className="template-plus3i"></a>
+                                        {/* <ul>
                                             <li>
                                                 <a href="?page=contact" title="Contact style 1">
                                                     Contact style 1
@@ -409,10 +198,10 @@ export default function Header() {
                                                     Contact style 2
                                                 </a>
                                             </li>
-                                        </ul>
+                                        </ul> */}
                                     </li>
                                     <li>
-                                        <a className="more display-block" href="?page=bookkeeping_quoting_calculator"
+                                        <a className="more display-block" href="/bookkeeping-quoting-calculator"
                                             title="Get a quote">Get a quote</a>
                                     </li>
                                 </ul>

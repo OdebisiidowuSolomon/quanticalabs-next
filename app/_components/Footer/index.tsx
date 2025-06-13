@@ -47,7 +47,7 @@ function Footer() {
                                 <div className="icon template-calc"></div>
                                 <div className="item-content">
                                     <p>ONLINE</p>
-                                    <h5><a href="?page=loan_cost_calculator">Loan Calculator</a></h5>
+                                    <h5><a href="/bookkeeping-quoting-calculator">Loan Calculator</a></h5>
                                 </div>
                             </li>
                         </ul>
@@ -63,7 +63,7 @@ function Footer() {
                         <p className="margin-top-13">Finpeak is a company focused on finance. We offer accounting and tax
                             advisory services, strategic consulting and loans. All in one place.</p>
                         <div className="margin-top-30">
-                            <a className="more style-3" href="?page=contact" title="Find us on map">Find us on map</a>
+                            <a className="more style-3" href="/contact" title="Find us on map">Find us on map</a>
                         </div>
                     </div>
                     <div className="column column-1-4">
@@ -83,27 +83,27 @@ function Footer() {
                     <div className="column column-1-4">
                         <h5>Resources</h5>
                         <ul className="list simple margin-top-22">
-                            <li className="template-right3"><a href="?page=service_accounting_and_tax_advisory_services"
+                            <li className="template-right3"><a href="/service-post"
                                 title="Accounting Office">Accounting Office</a></li>
-                            <li className="template-right3"><a href="?page=service_business_plans_valuations_and_analyzes"
+                            <li className="template-right3"><a href="/service-post"
                                 title="Consulting Office">Consulting Office</a></li>
-                            <li className="template-right3"><a href="?page=service_loans_and_reviews_of_financial_statements"
+                            <li className="template-right3"><a href="/service-post"
                                 title="Loans and Leasing">Loans and Leasing</a></li>
-                            <li className="template-right3"><a href="?page=about" title="About Us">About Us</a></li>
-                            <li className="template-right3"><a href="?page=services" title="Our Services">Our Services</a></li>
-                            <li className="template-right3"><a href="?page=team" title="Our Team">Our Team</a></li>
+                            <li className="template-right3"><a href="/about" title="About Us">About Us</a></li>
+                            <li className="template-right3"><a href="/services" title="Our Services">Our Services</a></li>
+                            <li className="template-right3"><a href="/team" title="Our Team">Our Team</a></li>
                         </ul>
                     </div>
                     <div className="column column-1-4">
                         <h5>Latest posts</h5>
                         <ul className="latest-post margin-top-29">
                             <li>
-                                <a href="?page=post" title="5 reasons why your business needs an expense policy">5 reasons
+                                <a href="/blog-post" title="5 reasons why your business needs an expense policy">5 reasons
                                     why your business needs an expense policy</a>
                                 <abbr title="April 10, 2022">April 10, 2022</abbr>
                             </li>
                             <li>
-                                <a href="?page=post" title="6 main differences between an LLC and a corporation">6 main
+                                <a href="/blog-post" title="6 main differences between an LLC and a corporation">6 main
                                     differences between an LLC and a corporation</a>
                                 <abbr title="March 17, 2022">March 17, 2022</abbr>
                             </li>
@@ -113,18 +113,18 @@ function Footer() {
                 <div className="row page-padding-top">
                     <ul className="social-icons align-center">
                         <li>
-                            <a target="_blank" href="https://facebook.com/QuanticaLabs" className="social-facebook"
+                            <a target="_blank" href="#" className="social-facebook"
                                 title="facebook"></a>
                         </li>
                         <li>
-                            <a target="_blank" href="https://twitter.com/QuanticaLabs" className="social-twitter"
+                            <a target="_blank" href="#" className="social-twitter"
                                 title="twitter"></a>
                         </li>
                         <li>
-                            <a href="https://pinterest.com/quanticalabs/" className="social-pinterest" title="pinterest"></a>
+                            <a href="#" className="social-pinterest" title="pinterest"></a>
                         </li>
                         <li>
-                            <a href="https://www.buymeacoffee.com/quanticalabs" className="social-paypal" title="paypal"></a>
+                            <a href="#" className="social-paypal" title="paypal"></a>
                         </li>
                     </ul>
                 </div>
