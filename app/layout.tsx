@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script.js";
 
 import "../public/css/settings.css"
@@ -23,16 +22,6 @@ import Preloader from "./_components/UI/preloader";
 import SearchAbsoluteContainer from "./_components/UI/SearchAbsoluteContainer";
 
 
-
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   title: "Finpeak - Business Finance Consulting Template",
@@ -64,7 +53,7 @@ export default function RootLayout({
 
 
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased fp-site-preloader with-topbar`}
+        className={`antialiased fp-site-preloader with-topbar`}
       >
         
         <Preloader />
