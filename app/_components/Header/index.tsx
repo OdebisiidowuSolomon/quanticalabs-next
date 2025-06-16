@@ -1,6 +1,7 @@
 import React from 'react'
 
 
+
 const headerLinks = [
     { title: '', linkTo: '', subMenu: [{ title: '', linkTo: '' }] }
 ]
@@ -96,6 +97,11 @@ export default function Header() {
                                         Calculator
                                     </a>
                                 </li>
+                                <li className="submenul">
+                                    <a href="/compare/your-car" title="Compare">
+                                        Compare
+                                    </a>
+                                </li>
                                 {/* <li className="submenul">
                                     <a href="?page=case_studies" title="Case studies">
                                         Studies
@@ -181,6 +187,11 @@ export default function Header() {
                                                 </a>
                                             </li>
                                         </ul> */}
+                                    </li>
+                                    <li className="submenul">
+                                        <a href="/compare/your-car" title="Compare">
+                                            Compare
+                                        </a>
                                     </li>
                                     <li>
                                         <a href="/contact" title="Contact">
