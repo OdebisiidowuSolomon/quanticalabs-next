@@ -1,5 +1,5 @@
-import React from 'react'
-import Header from '../(main)/compare/_components/CompareHeader';
+import React from 'react';
+import CompareHeader from '../compare/_components/CompareHeader';
 
 function SummaryLayout({
     children,
@@ -8,7 +8,7 @@ function SummaryLayout({
 }>) {
     return (
         <div className='mx-4 md:mx-10 lg:mx-32 cmxl:mx-72 mt-7'>
-            <Header />
+            <CompareHeader />
             <div className='flex flex-col-reverse md:gap-28 md:flex-row'>
                 <div className='flex flex-col flex-[0.5] pb-10'>
                     {children}
