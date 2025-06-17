@@ -14,13 +14,15 @@ import Section6 from "../../_components/HomePage/Section6";
 import Section7 from "../../_components/HomePage/Section7";
 import Section8 from "../../_components/HomePage/Section8";
 import Section9 from "../../_components/HomePage/Section9";
+import CustomSlider from "@/app/_components/CustomSlider";
 
 
 export default function HomePage() {
     return (
         <div className="site-container">
             <Header />
-            <SliderRevolution />
+            <CustomSlider />
+            {/* <SliderRevolution /> */}
 
             <div className="theme-page">
                 <div className="clearfix">
