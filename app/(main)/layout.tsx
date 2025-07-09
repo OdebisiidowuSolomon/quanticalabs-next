@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { Open_Sans } from 'next/font/google';
+import "./style.css";
 import "@/app/globals.css";
 
 
 const openSans = Open_Sans({
   subsets: ['latin'],  // Ensure proper character support
-  weight: ['300', '400', '500','600', '700'], // Specify font weights you need
+  weight: ['300', '400', '500', '600', '700'], // Specify font weights you need
 });
 
 export const metadata: Metadata = {

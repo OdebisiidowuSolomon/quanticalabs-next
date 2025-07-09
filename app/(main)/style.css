@@ -1,6 +1,6 @@
-/* @import "tailwindcss"; */
+@import "tailwindcss";
 
-/* @theme {
+@theme {
     --font-sans: var(--font-geist-sans);
     --font-mono: var(--font-geist-mono);
   
@@ -13,7 +13,7 @@
     --breakpoint-cmxl: 1550px;
     --breakpoint-cmxs: 510px;
     --breakpoint-cmxss: 365px;
-  } */
+  }
   
   :root {
     --background: #ffffff;

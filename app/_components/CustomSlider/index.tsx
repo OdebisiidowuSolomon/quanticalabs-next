@@ -72,11 +72,13 @@ const SingleSlider = ({ imagePath }: { imagePath: string }) => {
 
 
 
-    // return <div className={`h-full w-full items-center flex bg-[url('/assets/images/${imagePath}')] bg-cover bg-center bg-no-repeat`}>
-    return <div className={`h-full w-full items-center flex bg-auto bg-center bg-no-repeat`} style={{ backgroundImage: `url(${imagePath})` }}>
+
+    // return <div className={`h-full w-full items-center flex bg-auto bg-center bg-no-repeat`} style={{ backgroundImage: `url(${imagePath})` }}>
+    return <div className={`single-slider`} style={{ backgroundImage: `url(${imagePath})` }}>
         <div className='w-[1270px]! mx-auto!'>
             <div>
-                <p className='text-5xl! text-white! text-left! py-0! '>
+                {/* <p className='text-5xl! text-white! text-left! py-0! '> */}
+                <p className='strong-p'>
                     You go about your <br />
                     business. We'll do <br />
                     the rest.
@@ -85,10 +87,11 @@ const SingleSlider = ({ imagePath }: { imagePath: string }) => {
 
 
             <div>
-                <p className='text-2xl! text-white! text-left!'>Accounting office and tax advisory services.</p>
+                <p className='medium-p'>Accounting office and tax advisory services.</p>
+                {/* <p className='text-2xl! text-white! text-left!'>Accounting office and tax advisory services.</p> */}
             </div>
 
-            <div className='flex justify-start! gap-7'>
+            <div className='flexjustify-start!gap-7' style={{ display: 'flex', justifyContent: 'start', gap: 7 }}>
                 <a className="more" href="?page=bookkeeping_quoting_calculator" title="Let's get started">Let's get
                     started</a>
                 <a className="more style-4 template-video1 prettyPhoto"

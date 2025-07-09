@@ -1,7 +1,13 @@
+'use client'
+
 import CustomButton from '@/app/_components/buttons'
 import { CheckboxSelect, EditText, QuestionContainer, QuestionH2Text, QuestionLabel, TextBesideText } from '@/app/_components/texts'
+import { useRouter } from 'next/navigation'
 
 function SummaryPage() {
+
+    const router = useRouter()
+
     return (
         <div>
             <QuestionH2Text text='Check your answers' />
@@ -248,7 +254,7 @@ function SummaryPage() {
             </QuestionContainer>
 
             <div className='flex justify-end mt-7'>
-                <CustomButton title='Get quotes'/>
+                <CustomButton title='Get quotes' onClick={() => router.push('/result')} />
             </div>
 
         </div>

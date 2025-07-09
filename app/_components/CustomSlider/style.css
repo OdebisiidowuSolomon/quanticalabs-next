@@ -16,6 +16,8 @@
     padding: 0;
   } */
 
+/* @import "tailwindcss"; */
+
 :root {
     --custom-color: white
 }
@@ -73,6 +75,37 @@
 .swiper-pagination-bullet {
     background: var(--custom-color);
 }
+
+.single-slider {
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.single-slider>div:nth-of-type(1) {
+    width: 1270px !important;
+    margin-inline: auto !important;
+}
+
+.single-slider p {
+    color: #fff;
+    text-align: left;
+}
+
+.single-slider p.strong-p {
+    font-size: 3rem;
+    line-height: 1;
+}
+
+.single-slider p.medium-p {
+    font-size: 1.5rem;
+    line-height: calc(2 / 1.5);
+}
+
 
 
 @media (max-width:1500px) {

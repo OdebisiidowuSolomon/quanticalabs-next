@@ -17,7 +17,7 @@ export interface IStep {
 }
 
 export interface ISubStep {
-    label: string; id: number, linkTo: string, status: ESubStepLabel
+    label: string; id: number, linkTo: string, status: ESubStepLabel, goToSummaryPage?: boolean
 }
 
 
@@ -46,7 +46,7 @@ export const steps: IStep[] = [
     {
         title: "Your policy",
         stepId: 3,
-        subSteps: [{ label: "Policy Type", linkTo: '#', id: 30, status: ESubStepLabel.INCOMPLETE }],
+        subSteps: [{ label: "Policy Type", linkTo: '#', id: 30, status: ESubStepLabel.INCOMPLETE, goToSummaryPage: true }],
     },
     {
         title: "Check your answers",

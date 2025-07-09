@@ -39,12 +39,15 @@ export function useNavigationHandler(dir: 'prev' | 'next') {
 
                 const nextSubStep = allSubSteps[validIndex + 1]
 
-                if (nextSubStep.linkTo === '#' || !nextSubStep.linkTo) return
+                if (nextSubStep.goToSummaryPage) {
+                    return router.push(`/summary`)
+                }
 
-                // alert(`${validIndex} ${allSubSteps.length} ${nextSubStep.linkTo}`)
+                if (nextSubStep.linkTo === '#' || !nextSubStep.linkTo) return
 
 
                 router.push(`/compare${nextSubStep.linkTo}`)
+
 
             }
 

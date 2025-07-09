@@ -16,7 +16,7 @@ interface ButtonProps extends React.ButtonHTMLAttributes<HTMLDivElement> {
 
 const CustomButton: React.FC<ButtonProps> = ({ titleClassName, outlinebutton, className, ...props }) => {
     return (
-        <div {...props} className={`bg-baseColor py-3 px-6 w-fit rounded-3xl ${outlinebutton ? 'bg-white border border-baseColor' : 'bg-baseColor'} ${className}`}>
+        <div {...props} className={`cursor-pointer bg-baseColor py-3 px-6 w-fit rounded-3xl ${outlinebutton ? 'bg-white border border-baseColor' : 'bg-baseColor'} ${className}`}>
             <span className={`font-bold ${outlinebutton ? 'text-baseColor' : 'text-white'} ${titleClassName}`}>{props.title}</span>
         </div>
     )

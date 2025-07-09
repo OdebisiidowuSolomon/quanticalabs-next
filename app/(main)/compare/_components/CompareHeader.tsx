@@ -1,10 +1,16 @@
+'use client'
+
 import React from 'react'
+import { useRouter } from 'next/navigation'
 
 function CompareHeader() {
+
+    const router = useRouter()
+
     return (
         <div className='flex! items-start! cmxss:items-center! flex-row! mb-7!'>
             <div className='flex cmxss:items-center flex-col cmxss:flex-row'>
-                <div className='flex items-center flex-row'>
+                <div className='flex items-center flex-row cursor-pointer' onClick={() => router.push('/home')}>
                     <div className='w-14 h-14 bg-gray-300 rounded-full'></div>
                     <div className='ml-2 hidden cmxs:block'>
                         <p className='text-baseColor text-2xl leading-5'>

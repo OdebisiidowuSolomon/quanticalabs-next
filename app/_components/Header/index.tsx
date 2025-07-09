@@ -30,18 +30,18 @@ export default function Header() {
                                 className="cart-items-number-arrow"></span></span></a>
                         </li>
                         <li>
-                            <a target="_blank" href="https://facebook.com/QuanticaLabs" className="social-facebook"
+                            <a target="_blank" href="#" className="social-facebook"
                                 title="facebook"></a>
                         </li>
                         <li>
-                            <a target="_blank" href="https://twitter.com/QuanticaLabs" className="social-twitter"
+                            <a target="_blank" href="#" className="social-twitter"
                                 title="twitter"></a>
                         </li>
                         <li>
-                            <a href="https://pinterest.com/quanticalabs/" className="social-pinterest" title="pinterest"></a>
+                            <a href="#" className="social-pinterest" title="pinterest"></a>
                         </li>
                         <li>
-                            <a href="https://www.buymeacoffee.com/quanticalabs" className="social-paypal" title="paypal"></a>
+                            <a href="#" className="social-paypal" title="paypal"></a>
                         </li>
 
                     </ul>
@@ -221,8 +221,8 @@ export default function Header() {
                     </div>
                     <div className="header-icons-container">
                         <a className="template-big-search" href="#" title="Search"></a>
-                        <a href="#" className="template-big-cart hide-on-mobiles"><span className="cart-items-number">2<span
-                            className="cart-items-number-arrow"></span></span></a>
+                        {/* <a href="#" className="template-big-cart hide-on-mobiles"><span className="cart-items-number">2<span
+                            className="cart-items-number-arrow"></span></span></a> */}
                     </div>
                     <a href="#" className="mobile-menu-switch">
                         <span className="line"></span>
