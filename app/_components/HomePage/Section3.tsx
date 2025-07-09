@@ -9,7 +9,7 @@ export default function Section3() {
                 <div className="carousel-container margin-top-67 clearfix">
                     <ul className="services-list horizontal-carousel clearfix">
                         <li className="column column-1-3">
-                            <a href="?page=service_accounting_and_tax_advisory_services"
+                            <a href="/service-post"
                                 title="Accounting and tax advisory services">
                                 <img src="/images/image_05.jpg" alt="" />
                             </a>
@@ -18,7 +18,7 @@ export default function Section3() {
                                     <li><a href="#" title="In the branch">IN THE BRANCH</a></li>
                                     <li><a href="#" title="Online">ONLINE</a></li>
                                 </ul>
-                                <h3><a href="?page=service_accounting_and_tax_advisory_services"
+                                <h3><a href="/service-post"
                                     title="Accounting and tax advisory services">Accounting and tax advisory
                                     services</a></h3>
                                 <ul className="simple-list">
@@ -26,12 +26,12 @@ export default function Section3() {
                                         payroll services.</li>
                                     <li>Providing advice and explanations on tax and custom obligations.</li>
                                 </ul>
-                                <a className="more" href="?page=service_accounting_and_tax_advisory_services"
+                                <a className="more" href="/service-post"
                                     title="Learn more">Learn more</a>
                             </div>
                         </li>
                         <li className="column column-1-3">
-                            <a href="?page=service_strategic_and_transaction_consulting_services"
+                            <a href="/service-post"
                                 title="Strategic and transaction consulting services">
                                 <img src="/images/image_06_1.jpg" alt="" />
                             </a>
@@ -40,7 +40,7 @@ export default function Section3() {
                                     <li><a href="#" title="In the branch">IN THE BRANCH</a></li>
                                     <li><a href="#" title="Online">ONLINE</a></li>
                                 </ul>
-                                <h3><a href="?page=service_strategic_and_transaction_consulting_services"
+                                <h3><a href="/service-post"
                                     title="Strategic and transaction consulting services">Strategic and
                                     transaction consulting services</a></h3>
                                 <ul className="simple-list">
@@ -50,12 +50,12 @@ export default function Section3() {
                                     </li>
                                 </ul>
                                 <a className="more"
-                                    href="?page=service_strategic_and_transaction_consulting_services"
+                                    href="/service-post"
                                     title="Learn more">Learn more</a>
                             </div>
                         </li>
                         <li className="column column-1-3">
-                            <a href="?page=service_loans_and_reviews_of_financial_statements"
+                            <a href="/service-post"
                                 title="Loans and reviews of financial statements">
                                 <img src="/images/image_07.jpg" alt="" />
                             </a>
@@ -64,7 +64,7 @@ export default function Section3() {
                                     <li><a href="#" title="By phone">BY PHONE</a></li>
                                     <li><a href="#" title="Online">ONLINE</a></li>
                                 </ul>
-                                <h3><a href="?page=service_loans_and_reviews_of_financial_statements"
+                                <h3><a href="/service-post"
                                     title="Loans and reviews of financial statements">Loans and reviews of
                                     financial statements</a></h3>
                                 <ul className="simple-list">
@@ -72,12 +72,12 @@ export default function Section3() {
                                         the applicable accounting standards.</li>
                                     <li>Get financial support with co-financing from the European Union.</li>
                                 </ul>
-                                <a className="more" href="?page=service_loans_and_reviews_of_financial_statements"
+                                <a className="more" href="/service-post"
                                     title="Learn more">Learn more</a>
                             </div>
                         </li>
                         <li className="column column-1-3">
-                            <a href="?page=service_business_plans_valuations_and_analyzes"
+                            <a href="/service-post"
                                 title="Business plans, valuations and analyzes">
                                 <img src="/images/image_08.jpg" alt="" />
                             </a>
@@ -86,7 +86,7 @@ export default function Section3() {
                                     <li><a href="#" title="In the branch">IN THE BRANCH</a></li>
                                     <li><a href="#" title="Online">ONLINE</a></li>
                                 </ul>
-                                <h3><a href="?page=service_business_plans_valuations_and_analyzes"
+                                <h3><a href="/service-post"
                                     title="Business plans, valuations and analyzes">Business plans,
                                     valuations and analyzes</a></h3>
                                 <ul className="simple-list">
@@ -94,12 +94,12 @@ export default function Section3() {
                                         long term business plans.</li>
                                     <li>Financial flow analyzes, HR management and forwarding optimization.</li>
                                 </ul>
-                                <a className="more" href="?page=service_business_plans_valuations_and_analyzes"
+                                <a className="more" href="/service-post"
                                     title="Learn more">Learn more</a>
                             </div>
                         </li>
                         <li className="column column-1-3">
-                            <a href="?page=service_performance_management_and_improvement"
+                            <a href="/service-post"
                                 title="Performance management and improvement">
                                 <img src="/images/image_02.jpg" alt="" />
                             </a>
@@ -107,7 +107,7 @@ export default function Section3() {
                                 <ul className="services-categories">
                                     <li><a href="#" title="In the branch">IN THE BRANCH</a></li>
                                 </ul>
-                                <h3><a href="?page=service_performance_management_and_improvement"
+                                <h3><a href="/service-post"
                                     title="Performance management and improvement">Performance management
                                     and improvement</a></h3>
                                 <ul className="simple-list">
@@ -116,12 +116,12 @@ export default function Section3() {
                                     <li>We assist in various transformation activities and manage performance.
                                     </li>
                                 </ul>
-                                <a className="more" href="?page=service_performance_management_and_improvement"
+                                <a className="more" href="/service-post"
                                     title="Learn more">Learn more</a>
                             </div>
                         </li>
                         <li className="column column-1-3">
-                            <a href="?page=service_small_business_employee_benefits"
+                            <a href="/service-post"
                                 title="Small business employee benefits">
                                 <img src="/images/image_09.jpg" alt="" />
                             </a>
@@ -130,7 +130,7 @@ export default function Section3() {
                                     <li><a href="#" title="By phone">BY PHONE</a></li>
                                     <li><a href="#" title="Online">ONLINE</a></li>
                                 </ul>
-                                <h3><a href="?page=service_small_business_employee_benefits"
+                                <h3><a href="/service-post"
                                     title="Small business employee benefits">Small business employee
                                     benefits</a></h3>
                                 <ul className="simple-list">
@@ -139,7 +139,7 @@ export default function Section3() {
                                     <li>We simplify HR processes and improve the administration of benefits and
                                         salaries.</li>
                                 </ul>
-                                <a className="more" href="?page=service_small_business_employee_benefits"
+                                <a className="more" href="/service-post"
                                     title="Learn more">Learn more</a>
                             </div>
                         </li>

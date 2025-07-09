@@ -13,7 +13,7 @@ export default function ContactSection3() {
                         <img src="/images/image_15.jpg" alt="img" />
                     </a>
                     <div className="contact-details-content">
-                        <h5>FinPeak Consulting Ltd<br />4744 Havanna Street<br />Greensboro, NC 27444</h5>
+                        <h5>Insur Consulting Ltd<br />4744 Havanna Street<br />Greensboro, NC 27444</h5>
                         <ul className="features-list type-small margin-top-20">
                             <li>
                                 <p>PHONE</p>
@@ -32,7 +32,7 @@ export default function ContactSection3() {
                         <img src="/images/image_16.jpg" alt="img" />
                     </a>
                     <div className="contact-details-content">
-                        <h5>FinPeak Columbus<br />3000 Bates Brothers Road<br />Columbus, OH 43215</h5>
+                        <h5>Insur Columbus<br />3000 Bates Brothers Road<br />Columbus, OH 43215</h5>
                         <ul className="features-list type-small margin-top-20">
                             <li>
                                 <p>PHONE</p>
@@ -51,7 +51,7 @@ export default function ContactSection3() {
                         <img src="/images/image_17.jpg" alt="img" />
                     </a>
                     <div className="contact-details-content">
-                        <h5>FinPeak New York<br />3545 Cardinal Lane<br />New York, NY 61820</h5>
+                        <h5>Insur New York<br />3545 Cardinal Lane<br />New York, NY 61820</h5>
                         <ul className="features-list type-small margin-top-20">
                             <li>
                                 <p>PHONE</p>

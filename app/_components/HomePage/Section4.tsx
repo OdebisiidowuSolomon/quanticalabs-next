@@ -36,7 +36,7 @@ export default function Section4() {
                         </foreignObject>
                     </svg>
                     <div className="row padding-left-40 padding-right-100 margin-top-194">
-                        <h5>Finpeak is reliable cooperation partner that approaches its work very
+                        <h5>Insur is reliable cooperation partner that approaches its work very
                             professionally, even in the case of smaller entities. Throughout our cooperation I
                             had a sense of comfort and security.</h5>
                         <p className="padding-top-30 padding-bottom-6">Markus Willberg</p>

@@ -1,4 +1,7 @@
-import React from 'react'
+'use client'
+
+import { usePathname } from 'next/navigation';
+import React, { useCallback, useEffect } from 'react'
 
 
 
@@ -6,17 +9,38 @@ const headerLinks = [
     { title: '', linkTo: '', subMenu: [{ title: '', linkTo: '' }] }
 ]
 
+
+export const custom_address = '4744 Sample Street, London';
+export const custom_telephone = '+48 111 222 333';
+export const custom_email = 'sample@gmail.com';
+
 export default function Header() {
+
+    const pathName = usePathname();
+
+
+    useEffect(() => {
+        console.log(pathName, 'pathName');
+
+    }, [pathName])
+
+
+    const handleActiveLink = useCallback((linkName: string) => {
+        return linkName === pathName ? 'selected' : ''
+    }, [pathName])
+
+
+
     return (
         <>
             <div className="header-top-bar-container clearfix">
                 <div className="header-top-bar">
                     <ul className="contact-details clearfix">
                         <li className="template-location1">
-                            4744 Havanna Street, Greensboro
+                            4744 Sample Street, London
                         </li>
                         <li className="template-phone">
-                            <a href="tel:+48555223224">+48 555 223 224</a>
+                            <a href="tel:+48111222333">+48 111 222 333</a>
                         </li>
                     </ul>
                     <ul className="contact-details clearfix hide-on-mobiles">
@@ -53,74 +77,58 @@ export default function Header() {
                 <div className="header clearfix with-more-button">
                     <div className="logo">
                         <h1>
-                            <a href="?page=home" title="Finpeak">
+                            <a href="/home" title="Insur">
                                 <img src="/images/logo.png" srcSet="images/logo_retina.png 2x" className="primary-logo"
                                     alt="logo" />
                                 <img src="/images/logo_alternative.png" srcSet="images/logo_alternative_retina.png 2x"
                                     className="secondary-logo" alt="logo" />
-                                <span className="logo-text">FINPEAK</span>
+                                <span className="logo-text">INSUR</span>
                             </a>
                         </h1>
                     </div>
                     <div className="menu-container clearfix">
                         <nav>
                             <ul className="sf-menu">
-                                <li className="selected">
-                                    <a href="?page=home" title="Home">
+                                <li className={`${handleActiveLink('/home')}`}>
+                                    <a href="/home" title="Home">
                                         Home
                                     </a>
                                 </li>
-                                <li className="submenul">
+                                <li className={`${handleActiveLink('/about')}`}>
                                     <a href="/about" title="About Us">
                                         About Us
                                     </a>
 
                                 </li>
-                                <li className="submenul">
+                                <li className={`${handleActiveLink('/services')}`}>
                                     <a href="/services" title="Services">
                                         Services
                                     </a>
 
                                 </li>
-                                <li className="submenul">
+                                <li className={`${handleActiveLink('/case-studies')}`}>
                                     <a href="/case-studies" title="Case Studies">
                                         Case Studies
                                     </a>
                                 </li>
-                                <li className="submenul">
+                                <li className={`${handleActiveLink('/blogs')}`}>
                                     <a href="/blogs" title="Blog">
                                         Blog
                                     </a>
                                 </li>
-                                <li className="submenul">
+                                <li className={`${handleActiveLink('/bookkeeping-quoting-calculator')}`}>
                                     <a href="/bookkeeping-quoting-calculator" title="Calculator">
                                         Calculator
                                     </a>
                                 </li>
-                                <li className="submenul">
+                                <li className={`${handleActiveLink('/compare/your-car')}`}>
                                     <a href="/compare/your-car" title="Compare">
                                         Compare
                                     </a>
                                 </li>
-                                {/* <li className="submenul">
-                                    <a href="?page=case_studies" title="Case studies">
-                                        Studies
-                                    </a>
-                                    
-                                </li>
-                                <li className="submenul">
-                                    <a href="?page=bookkeeping_quoting_calculator" title="Calculator">
-                                        Calculator
-                                    </a>
-                                   
-                                </li>
-                                <li className="submenul">
-                                    <a href="?page=blog" title="Blog">
-                                        Blog
-                                    </a>
-                                  
-                                </li> */}
-                                <li className="left-flyout submenul">
+
+
+                                <li className={`left-flyout ${handleActiveLink('/contact')}`}>
                                     <a href="/contact" title="Contact">
                                         Contact
                                     </a>
@@ -143,33 +151,34 @@ export default function Header() {
                             <nav>
                                 <ul className="mobile-menu collapsible-mobile-submenus">
                                     <li><a className="template-big-arrow-horizontal-sm" href="#">&nbsp;</a></li>
-                                    <li className="selected">
+
+                                    <li className={`${handleActiveLink('/home')}`}>
                                         <a href="/home" title="Home">
                                             Home
                                         </a>
                                         <a href="#" className="template-plus3i"></a>
                                     </li>
 
-                                    <li>
+                                    <li className={`${handleActiveLink('/services')}`}>
                                         <a href="/services" title="Services">
                                             Services
                                         </a>
                                         <a href="#" className="template-plus3i"></a>
 
                                     </li>
-                                    <li>
+                                    <li className={`${handleActiveLink('/case-studies')}`}>
                                         <a href="/case-studies" title="Case studies">
                                             Case Studies
                                         </a>
                                         <a href="#" className="template-plus3i"></a>
                                     </li>
-                                    <li>
+                                    <li className={`${handleActiveLink('/blogs')}`}>
                                         <a href="/blogs" title="Blog">
                                             Blog
                                         </a>
                                         <a href="#" className="template-plus3i"></a>
                                     </li>
-                                    <li>
+                                    <li className={`${handleActiveLink('/bookkeeping-quoting-calculator')}`}>
                                         <a href="/bookkeeping-quoting-calculator" title="Calculator">
                                             Calculator
                                         </a>
@@ -188,12 +197,12 @@ export default function Header() {
                                             </li>
                                         </ul> */}
                                     </li>
-                                    <li className="submenul">
+                                    <li className={`${handleActiveLink('/compare/your-car')}`}>
                                         <a href="/compare/your-car" title="Compare">
                                             Compare
                                         </a>
                                     </li>
-                                    <li>
+                                    <li className={`${handleActiveLink('/contact')}`}>
                                         <a href="/contact" title="Contact">
                                             Contact
                                         </a>
@@ -211,7 +220,7 @@ export default function Header() {
                                             </li>
                                         </ul> */}
                                     </li>
-                                    <li>
+                                    <li className={`${handleActiveLink('/bookkeeping-quoting-calculator')}`}>
                                         <a className="more display-block" href="/bookkeeping-quoting-calculator"
                                             title="Get a quote">Get a quote</a>
                                     </li>

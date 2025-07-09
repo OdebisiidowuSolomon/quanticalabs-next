@@ -34,7 +34,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-    title: "Home Finpeak - Business Finance Consulting Template",
+    title: "Home Insur - Business Finance Consulting Template",
     description: "Business Finance Consulting Template",
     keywords: [
         "Business",

@@ -1,4 +1,4 @@
-import React from 'react'
+import { custom_email } from "../Header"
 
 function Footer() {
     return (
@@ -11,7 +11,7 @@ function Footer() {
                                 <div className="icon template-phone"></div>
                                 <div className="item-content">
                                     <p>CALL US</p>
-                                    <h5><a href="tel:+10555223224">+10 555 223 224</a></h5>
+                                    <h5><a href="tel:+48111222333">+48 111 222 333</a></h5>
                                 </div>
                             </li>
                         </ul>
@@ -24,7 +24,7 @@ function Footer() {
                                     <p>E-MAIL</p>
                                     <h5><a href="/cdn-cgi/l/email-protection#8ce4e9e0e0e3cceae5e2fce9ede7a2efe3e1"><span
                                         className="__cf_email__"
-                                        data-cfemail="91f9f4fdfdfed1f7f8ffe1f4f0fabff2fefc">[email&nbsp;protected]</span></a>
+                                        data-cfemail="91f9f4fdfdfed1f7f8ffe1f4f0fabff2fefc">{custom_email}</span></a>
                                     </h5>
                                 </div>
                             </li>
@@ -36,7 +36,8 @@ function Footer() {
                                 <div className="icon template-location2"></div>
                                 <div className="item-content">
                                     <p>ADDRESS</p>
-                                    <h5>4744 Havanna Street</h5>
+                                    {/* <h5>4744 Havanna Street</h5> */}
+                                    <h5>4744 Sample Street, London</h5>
                                 </div>
                             </li>
                         </ul>
@@ -59,8 +60,8 @@ function Footer() {
             <div className="row dark footer-row full-width padding-top-63 padding-bottom-67">
                 <div className="row row-4-4">
                     <div className="column column-1-4">
-                        <h5>Finpeak</h5>
-                        <p className="margin-top-13">Finpeak is a company focused on finance. We offer accounting and tax
+                        <h5>Insur</h5>
+                        <p className="margin-top-13">Insur is a company focused on finance. We offer accounting and tax
                             advisory services, strategic consulting and loans. All in one place.</p>
                         <div className="margin-top-30">
                             <a className="more style-3" href="/contact" title="Find us on map">Find us on map</a>
@@ -68,16 +69,16 @@ function Footer() {
                     </div>
                     <div className="column column-1-4">
                         <h5>Greensboro</h5>
-                        <p className="margin-top-13">4744 Havanna Street<br />Greensboro, NC 27444<br /><a
-                            href="/cdn-cgi/l/email-protection#b0d7c2d5d5dec3d2dfc2dff0d6d9dec0d5d1db9ed3dfdd"><span
+                        <p className="margin-top-13">4744 Sample Street<br />Greensboro, NC 2744400<br /><a
+                            href="mailto:sample@gmail.com"><span
                                 className="__cf_email__"
-                                data-cfemail="97f0e5f2f2f9e4f5f8e5f8d7f1fef9e7f2f6fcb9f4f8fa">[email&nbsp;protected]</span></a>
+                            >{custom_email}</span></a>
                         </p>
                         <h5 className="margin-top-22">Boynton Beach</h5>
                         <p className="margin-top-13">1020 Travis Street<br />Boynton Beach, FL 33436<br /><a
-                            href="/cdn-cgi/l/email-protection#99feebfcfcf7eafbf6ebf6d9fff0f7e9fcf8f2b7faf6f4"><span
+                            href="mailto:sample@gmail.com"><span
                                 className="__cf_email__"
-                                data-cfemail="d1b3bea8bfa5bebf91b7b8bfa1b4b0baffb2bebc">[email&nbsp;protected]</span></a>
+                            >{custom_email}</span></a>
                         </p>
                     </div>
                     <div className="column column-1-4">

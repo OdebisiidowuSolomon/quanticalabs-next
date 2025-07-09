@@ -4,7 +4,7 @@ export default function CalculatorSection1() {
     return (
         <div className="row gray full-width">
             <div className="row padding-top-95 padding-bottom-100">
-                <h5 className="align-center">Join thousands of small business owners who trust Finpeak with their books.<br />Tell us your average monthly transactions and we'll suggest the plan that's right for your business.</h5>
+                <h5 className="align-center">Join thousands of small business owners who trust Insur with their books.<br />Tell us your average monthly transactions and we'll suggest the plan that's right for your business.</h5>
                 <form className="cost-calculator-container cost-calculator-form margin-top-65" id="bookkeeping-calculator" method="post" action="?page=bookkeeping_quoting_calculator">
                     <div className="row">
                         <fieldset className="column column-1-2">

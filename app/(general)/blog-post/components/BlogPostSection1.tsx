@@ -41,7 +41,7 @@ export default function BlogPostSection1() {
                     <h3>Sampling moving</h3>
                     <p>Progressively maintain extensive infomediaries via extensible niches. Dramatically disseminate standardized metrics after resource-leveling processes. Objectively pursue diverse catalysts for change for interoperable meta-services. Distinctively re-engineer revolutionary meta-services and premium architectures. Intrinsically incubate intuitive opportunities and real-time potentialities. Appropriately communicate one-to-one technology.</p>
                     <blockquote className="margin-top-57">
-                        <p>FinPeak is a reliable cooperation partner that approaches its work very professionally, even in the case of smaller entities. Throughout our cooperation I had a sense of comfort and security.</p>
+                        <p>Insur is a reliable cooperation partner that approaches its work very professionally, even in the case of smaller entities. Throughout our cooperation I had a sense of comfort and security.</p>
                     </blockquote>
                     <p>Progressively maintain extensive infomediaries via extensible niches. Dramatically disseminate standardized metrics after resource-leveling processes. Objectively pursue diverse catalysts for change for interoperable meta-services. Distinctively re-engineer revolutionary meta-services and premium architectures.</p>
                     <h3>Sampling moving</h3>
@@ -116,7 +116,7 @@ export default function BlogPostSection1() {
             <div className="row margin-top-60">
                 <h3>Leave a comment</h3>
                 <p>Your email address will not be published. Required fields are marked *</p>
-                <form className="comment-form margin-top-30" id="comment-form" method="post" action="/Finpeak/Template/?page=post">
+                <form className="comment-form margin-top-30" id="comment-form" method="post" action="/Insur/Template/?page=post">
                     <div className="row flex-box">
                         <fieldset className="column column-1-2">
                             <div className="border-container">

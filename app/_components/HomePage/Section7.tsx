@@ -19,7 +19,7 @@ function Section7() {
                         </li>
                         <li>
                             <img src="/images/image_08_1.jpg" alt="" />
-                            <h5>"We began working with Finpeak team because we were facing a lot of challenges
+                            <h5>"We began working with Insur team because we were facing a lot of challenges
                                 with our firm. We were not organized, we were not effectively using our tools
                                 and we were not delivering projects to clients on time."</h5>
                             <p className="padding-top-30 padding-bottom-6">Molly Nilson</p>
@@ -27,7 +27,7 @@ function Section7() {
                         </li>
                         <li>
                             <img src="/images/image_09_1.jpg" alt="" />
-                            <h5>"It was great working with the Finpeak, as this was our first time working with
+                            <h5>"It was great working with the Insur, as this was our first time working with
                                 vendor on a bigger scale. The team was patient and persistent, and ultimately we
                                 are thrilled with the end result and level of training we have received."</h5>
                             <p className="padding-top-30 padding-bottom-6">Robert Bryan</p>

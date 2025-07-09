@@ -8,7 +8,7 @@ function Section8() {
                 <h2 className="box-header margin-top-15">Meet our professional team</h2>
             </div>
             <div className="column column-1-4">
-                <a className="more float-right margin-top-21" href="?page=team" title="Go to the team">Go to the
+                <a className="more float-right margin-top-21" href="/team" title="Go to the team">Go to the
                     team</a>
             </div>
         </div>

@@ -68,12 +68,7 @@ export default CustomSlider
 
 
 const SingleSlider = ({ imagePath }: { imagePath: string }) => {
-    console.log(imagePath);
 
-
-
-
-    // return <div className={`h-full w-full items-center flex bg-auto bg-center bg-no-repeat`} style={{ backgroundImage: `url(${imagePath})` }}>
     return <div className={`single-slider`} style={{ backgroundImage: `url(${imagePath})` }}>
         <div className='w-[1270px]! mx-auto!'>
             <div>
@@ -92,7 +87,7 @@ const SingleSlider = ({ imagePath }: { imagePath: string }) => {
             </div>
 
             <div className='flexjustify-start!gap-7' style={{ display: 'flex', justifyContent: 'start', gap: 7 }}>
-                <a className="more" href="?page=bookkeeping_quoting_calculator" title="Let's get started">Let's get
+                <a className="more" href="/bookkeeping-quoting-calculator" title="Let's get started">Let's get
                     started</a>
                 <a className="more style-4 template-video1 prettyPhoto"
                     href="https://www.youtube.com/watch?v=AivyFZXT2ek&amp;width=800&amp;height=450"

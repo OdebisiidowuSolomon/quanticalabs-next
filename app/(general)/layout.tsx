@@ -37,7 +37,7 @@ import SearchAbsoluteContainer from "../_components/UI/SearchAbsoluteContainer";
 
 
 export const metadata: Metadata = {
-  title: "Finpeak - Business Finance Consulting Template",
+  title: "Insur - Business Finance Consulting Template",
   description: "Business Finance Consulting Template",
   keywords: [
     "Business",

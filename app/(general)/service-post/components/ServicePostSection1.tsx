@@ -21,7 +21,7 @@ export default function ServicePostSection1() {
                 </div>
             </div>
             <div className="column column-1-2">
-                <label className="box-header">WE ARE FINPEAK</label>
+                <label className="box-header">WE ARE Insur</label>
                 <h2 className="box-header margin-top-15">Our strengths</h2>
                 <h5 className="margin-top-40">Our mission is to offer a full spectrum of business support services. We offer accounting, audit and consulting. For us, work is a passion, only with this sense we can develop and provide services at the highest level.</h5>
                 <p className="margin-top-15">We put emphasis on understanding the needs and business of customers, thanks to which the scope of our services is as individual as possible. In this way, we maximize the efficiency of our work and ensure a high level of customer satisfaction. We are available and open to questions from customers. We are committed to work, and we implement new projects with enthusiasm. Customer satisfaction is our goal.</p>

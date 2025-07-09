@@ -7,7 +7,7 @@ function ContactSection1() {
                 <div className="contact-map-details">
                     <img className="display-block" src="/images/image_05_2.jpg" alt="img" />
                     <div className="contact-details-content">
-                        <h5>FinPeak Consulting Ltd<br />4744 Havanna Street<br />Greensboro, NC 27444</h5>
+                        <h5>Insur Consulting Ltd<br />4744 Havanna Street<br />Greensboro, NC 27444</h5>
                         <a className="fp-action-button template-location3 margin-top-36" target="_blank" href="https://www.google.pl/maps/search/Greensboro+NC+27444" title="Plan a route">Plan a route</a>
                     </div>
                 </div>

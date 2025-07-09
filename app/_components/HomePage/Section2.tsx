@@ -5,7 +5,7 @@ export default function Section2() {
         <div className="row margin-top-95">
             <div className="column column-1-2 padding-right-50">
                 <label className="box-header">ABOUT US</label>
-                <h2 className="box-header margin-top-15">Welcome to Finpeak</h2>
+                <h2 className="box-header margin-top-15">Welcome to Insur</h2>
                 <h5 className="margin-top-40">The functioning of each organization is based on various types of
                     processes. By analyzing them, we select appropriate tools, simplifying their implementation,
                     and thus reducing the costs.</h5>
@@ -15,14 +15,14 @@ export default function Section2() {
                     work closely with the client throughout the entire project implementation process.</p>
                 <div className="row margin-top-30">
                     <div className="column column-1-1">
-                        <a className="more float margin-right-50" href="?page=about" title="Learn more">Learn
+                        <a className="more float margin-right-50" href="/about" title="Learn more">Learn
                             more</a>
                         <ul className="features-list float">
                             <li className="gray">
                                 <div className="icon template-phone"></div>
                                 <div className="item-content">
                                     <p>FEEL FREE TO CALL US</p>
-                                    <h5><a href="tel:+10555223224">+10 555 223 224</a></h5>
+                                    <h5><a href="tel:+48111222333">+48 111 222 333</a></h5>
                                 </div>
                             </li>
                         </ul>
@@ -45,7 +45,7 @@ export default function Section2() {
                             </path>
                         </svg>
                         <a href="images/samples/280x420/image_01.jpg"
-                            className="single-image prettyPhoto fp-preload" title="Welcome to Finpeak">
+                            className="single-image prettyPhoto fp-preload" title="Welcome to Insur">
                             <img src="/images/image_01_1.jpg" alt="img" />
                         </a>
                     </div>
@@ -61,7 +61,7 @@ export default function Section2() {
                         </svg>
                         <a href="images/samples/280x420/image_02.jpg"
                             className="single-image prettyPhoto fp-preload page-margin-top align-right"
-                            title="Welcome to Finpeak">
+                            title="Welcome to Insur">
                             <img src="/images/image_02_1.jpg" alt="img" />
                         </a>
                     </div>
