@@ -10,7 +10,7 @@ export default function AboutSection1() {
                 <p className="margin-top-15">Knowing the needs of our clients and having knowledge of EU and national funds, we help to identify appropriate support programs. We also support in obtaining funds by developing applications that give you high chances of receiving funds. We work closely with the client throughout the entire project implementation process.</p>
                 <div className="row margin-top-30">
                     <div className="column column-1-1">
-                        <a className="more float margin-right-50" href="?page=about" title="Learn more">Learn more</a>
+                        <a className="more float margin-right-50" href="/about" title="Learn more">Learn more</a>
                         <ul className="features-list float">
                             <li className="gray">
                                 <div className="icon template-phone"></div>

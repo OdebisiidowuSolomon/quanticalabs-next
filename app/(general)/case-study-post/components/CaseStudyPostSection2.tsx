@@ -8,7 +8,7 @@ export default function CaseStudyPostSection2() {
                 <h2 className="box-header margin-top-15">Explore other case studies</h2>
             </div>
             <div className="column column-1-4">
-                <a className="more float-right margin-top-21" href="?page=case_studies" title="Go to case studies">Go to case studies</a>
+                <a className="more float-right margin-top-21" href="#" title="Go to case studies">Go to case studies</a>
             </div>
         </div>
     )

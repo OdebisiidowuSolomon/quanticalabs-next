@@ -91,9 +91,9 @@ export default function CalculatorSection1() {
                         </fieldset>
                         <fieldset className="column column-1-3">
                             <div className="cost-calculator-box clearfix">
-                                <label>Are you handle foreign currency?</label>
+                                <label>Do you handle foreign currency?</label>
                                 <label htmlFor="foreign-currency" className="cost-calculator-switch radius">
-                                    <input type="hidden" defaultValue="Are you handle foreign currency?" name="foreign-currency-label" />
+                                    <input type="hidden" defaultValue="Do you handle foreign currency?" name="foreign-currency-label" />
                                     <input type="checkbox" data-value="2" defaultValue="0" name="foreign-currency" className="cost-slider-input type-checkbox" id="foreign-currency" />
                                     <span className="cost-calculator-switch-slider" data-yes="Yes" data-no="No"></span>
                                 </label>

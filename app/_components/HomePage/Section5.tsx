@@ -14,8 +14,8 @@ export default function Section5() {
                                 <img src="/images/image_10.jpg" alt="" />
                             </a>
                             <ul className="post-categories">
-                                <li><a href="?page=category&amp;cat=business" title="Business">BUSINESS</a></li>
-                                <li><a href="?page=category&amp;cat=taxes" title="Taxes">TAXES</a></li>
+                                <li><a href="/blog-post" title="Business">BUSINESS</a></li>
+                                <li><a href="/blog-post" title="Taxes">TAXES</a></li>
                             </ul>
                         </div>
                         <div className="post-content-container">
@@ -23,7 +23,7 @@ export default function Section5() {
                                 <li className="date template-calendar"><a href="/blog-post"
                                     title="5 reasons why your business needs an expense policy">April 10,
                                     2022</a></li>
-                                <li className="template-author"><a href="?page=team_klaus_hertzog"
+                                <li className="template-author"><a href="/team"
                                     title="Klaus Hertzog">Klaus Hertzog</a></li>
                             </ul>
                             <h5><a href="/blog-post">5 reasons why your business needs an expense policy</a>
@@ -40,7 +40,7 @@ export default function Section5() {
                                 <img src="/images/image_11.jpg" alt="" />
                             </a>
                             <ul className="post-categories">
-                                <li><a href="?page=category&amp;cat=finances" title="Finances">FINANCES</a></li>
+                                <li><a href="/blog-post" title="Finances">FINANCES</a></li>
                             </ul>
                         </div>
                         <div className="post-content-container">
@@ -48,7 +48,7 @@ export default function Section5() {
                                 <li className="date template-calendar"><a href="/blog-post"
                                     title="6 main differences between an LLC and a corporation">March 17,
                                     2022</a></li>
-                                <li className="template-author"><a href="?page=team_ann_underwood"
+                                <li className="template-author"><a href="/team"
                                     title="Ann Underwood">Ann Underwood</a></li>
                             </ul>
                             <h5><a href="/blog-post">6 main differences between an LLC and a corporation</a>
@@ -65,7 +65,7 @@ export default function Section5() {
                                 <img src="/images/image_01.jpg" alt="" />
                             </a>
                             <ul className="post-categories">
-                                <li><a href="?page=category&amp;cat=accounting"
+                                <li><a href="/blog-post"
                                     title="Accounting">ACCOUNTING</a></li>
                             </ul>
                         </div>
@@ -74,7 +74,7 @@ export default function Section5() {
                                 <li className="date template-calendar"><a href="/blog-post"
                                     title="What you need to know about bookkeeping services">March 10,
                                     2022</a></li>
-                                <li className="template-author"><a href="?page=team_raphael_gap"
+                                <li className="template-author"><a href="/team"
                                     title="Raphael Gap">Raphael Gap</a></li>
                             </ul>
                             <h5><a href="/blog-post">What you need to know about bookkeeping services</a></h5>
@@ -90,8 +90,8 @@ export default function Section5() {
                                 <img src="/images/image_12.jpg" alt="" />
                             </a>
                             <ul className="post-categories">
-                                <li><a href="?page=category&amp;cat=business" title="BUSINESS">BUSINESS</a></li>
-                                <li><a href="?page=category&amp;cat=ideas" title="Ideas">IDEAS</a></li>
+                                <li><a href="/blog-post" title="BUSINESS">BUSINESS</a></li>
+                                <li><a href="/blog-post" title="Ideas">IDEAS</a></li>
                             </ul>
                         </div>
                         <div className="post-content-container">
@@ -99,7 +99,7 @@ export default function Section5() {
                                 <li className="date template-calendar"><a href="/blog-post"
                                     title="How to use big data to make better business decisions?">February
                                     23, 2022</a></li>
-                                <li className="template-author"><a href="?page=team_audrey_willmore"
+                                <li className="template-author"><a href="/team"
                                     title="Audrey Willmore">Audrey Willmore</a></li>
                             </ul>
                             <h5><a href="/blog-post">How to use big data to make better business decisions?</a>
@@ -116,9 +116,9 @@ export default function Section5() {
                                 <img src="/images/image_13.jpg" alt="" />
                             </a>
                             <ul className="post-categories">
-                                <li><a href="?page=category&amp;cat=consulting"
+                                <li><a href="/blog-post"
                                     title="Consulting">CONSULTING</a></li>
-                                <li><a href="?page=category&amp;cat=planning" title="Planning">PLANNING</a></li>
+                                <li><a href="/blog-post" title="Planning">PLANNING</a></li>
                             </ul>
                         </div>
                         <div className="post-content-container">
@@ -126,7 +126,7 @@ export default function Section5() {
                                 <li className="date template-calendar"><a href="/blog-post"
                                     title="10 strategies how to help engage remote employees">February 08,
                                     2022</a></li>
-                                <li className="template-author"><a href="?page=team_ann_underwood"
+                                <li className="template-author"><a href="/team"
                                     title="Ann Underwood">Ann Underwood</a></li>
                             </ul>
                             <h5><a href="/blog-post">10 strategies how to help engage remote employees</a></h5>
@@ -143,7 +143,7 @@ export default function Section5() {
                                 <img src="/images/image_14.jpg" alt="" />
                             </a>
                             <ul className="post-categories">
-                                <li><a href="?page=category&amp;cat=business" title="Business">BUSINESS</a></li>
+                                <li><a href="/blog-post" title="Business">BUSINESS</a></li>
                             </ul>
                         </div>
                         <div className="post-content-container">
@@ -151,7 +151,7 @@ export default function Section5() {
                                 <li className="date template-calendar"><a href="/blog-post"
                                     title="Successfully expand your business outside of your core industry">February
                                     02, 2022</a></li>
-                                <li className="template-author"><a href="?page=team_raphael_gap"
+                                <li className="template-author"><a href="/team"
                                     title="Raphael Gap">Raphael Gap</a></li>
                             </ul>
                             <h5><a href="/blog-post">Successfully expand your business outside of your core
@@ -169,9 +169,9 @@ export default function Section5() {
                                 <img src="/images/image_03.jpg" alt="" />
                             </a>
                             <ul className="post-categories">
-                                <li><a href="?page=category&amp;cat=business" title="Business">BUSINESS</a></li>
-                                <li><a href="?page=category&amp;cat=finances" title="Finances">FINANCES</a></li>
-                                <li><a href="?page=category&amp;cat=ideas" title="Ideas">IDEAS</a></li>
+                                <li><a href="/blog-post" title="Business">BUSINESS</a></li>
+                                <li><a href="/blog-post" title="Finances">FINANCES</a></li>
+                                <li><a href="/blog-post" title="Ideas">IDEAS</a></li>
                             </ul>
                         </div>
                         <div className="post-content-container">
@@ -179,7 +179,7 @@ export default function Section5() {
                                 <li className="date template-calendar"><a href="/blog-post"
                                     title="Key strategies for starting a new business after bankruptcy">January
                                     30, 2022</a></li>
-                                <li className="template-author"><a href="?page=team_klaus_hertzog"
+                                <li className="template-author"><a href="/team"
                                     title="Klaus Hertzog">Klaus Hertzog</a></li>
                             </ul>
                             <h5><a href="/blog-post">Key strategies for starting a new business after
@@ -197,9 +197,9 @@ export default function Section5() {
                                 <img src="/images/image_04_1.jpg" alt="" />
                             </a>
                             <ul className="post-categories">
-                                <li><a href="?page=category&amp;cat=accounting"
+                                <li><a href="/blog-post"
                                     title="Accounting">ACCOUNTING</a></li>
-                                <li><a href="?page=category&amp;cat=taxes" title="Taxes">TAXES</a></li>
+                                <li><a href="/blog-post" title="Taxes">TAXES</a></li>
                             </ul>
                         </div>
                         <div className="post-content-container">
@@ -207,7 +207,7 @@ export default function Section5() {
                                 <li className="date template-calendar"><a href="/blog-post"
                                     title="5 revenue neutral benefits small businesses should offer employees">January
                                     18, 2022</a></li>
-                                <li className="template-author"><a href="?page=team_audrey_willmore"
+                                <li className="template-author"><a href="/team"
                                     title="Audrey Willmore">Audrey Willmore</a></li>
                             </ul>
                             <h5><a href="/blog-post">5 revenue neutral benefits small businesses should offer
@@ -224,8 +224,8 @@ export default function Section5() {
                                 <img src="/images/image_06_1.jpg" alt="" />
                             </a>
                             <ul className="post-categories">
-                                <li><a href="?page=category&amp;cat=business" title="Business">BUSINESS</a></li>
-                                <li><a href="?page=category&amp;cat=ideas" title="Ideas">IDEAS</a></li>
+                                <li><a href="/blog-post" title="Business">BUSINESS</a></li>
+                                <li><a href="/blog-post" title="Ideas">IDEAS</a></li>
                             </ul>
                         </div>
                         <div className="post-content-container">
@@ -233,7 +233,7 @@ export default function Section5() {
                                 <li className="date template-calendar"><a href="/blog-post"
                                     title="10 stages of consulting firm growth backed by resarch">January
                                     05, 2022</a></li>
-                                <li className="template-author"><a href="?page=team_ann_underwood"
+                                <li className="template-author"><a href="/team"
                                     title="Ann Underwood">Ann Underwood</a></li>
                             </ul>
                             <h5><a href="/blog-post">10 stages of consulting firm growth backed by resarch</a>
